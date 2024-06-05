@@ -153,7 +153,7 @@ width: 100%;
 }
 
 
-/*--Testimonials float: right;--*/
+/*--Testimonials float: right;.container-wrapper--*/
 
 
 .feature {
@@ -239,7 +239,7 @@ margin-bottom: 150px;
 .qtop,
 .qbottom{
     width: 90%;
-    height: 40vh;
+    height: 30vh;
 }
 
 
@@ -277,7 +277,7 @@ margin-bottom: 150px;
     color: gold;
    
 }
-.feature-box {
+.feature-box{
  
     position: relative;
     display: inline;
@@ -289,6 +289,7 @@ margin-bottom: 150px;
     border-radius: 30px;
     margin-top: 40px;
     margin-bottom: 40px;
+    
     margin: 3%;
     background-color: gold;
 }
@@ -306,12 +307,8 @@ margin-bottom: 150px;
     .text{
         margin-top: 15%;
     }
+
 }
-   /*-- .testimonials-container{
-        width: 80%;
-        height: 1200px;
-        background-color: gold;--*/
-    
 .mr-3 {
     object-fit: cover;
     margin-top: 15px;
@@ -323,12 +320,25 @@ margin-bottom: 150px;
     height: 100px;
 }
 
-.testimonials-container{
+  
+ .testimonials-container{
+
     width: 100%;
-    
+ 
     background-color: gold;
     padding-top: 50px;
     padding-bottom: 80px;
+}
+.testimonials-appear{
+    height: 100vh;
+    background-color:gold no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*--Footer--*/
 
@@ -352,11 +362,3 @@ margin-bottom: 150px;
     padding: 5%;
     margin: 0;
  }
-
-
-
-
-
-
-
-
