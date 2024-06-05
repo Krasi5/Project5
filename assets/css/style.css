@@ -1,0 +1,362 @@
+    
+    body {
+    font-family: Noto-Serif, sans-serif;
+  
+}
+/*---header--*/
+
+
+
+.navbar .navbar-toggler
+{  text-decoration: none;
+    border-color: gold;
+   
+}
+
+.navbar .navbar-brand {
+    color: gold;
+}
+.navbar .navbar-brand:hover{
+    color: darkgoldenrod;
+}
+
+
+.navbar .nav-item{
+    color: gold;
+}
+ .nav-link:hover {
+    color: darkgoldenrod;
+   
+}
+.navbar-toggler-icon{
+    color: gold;
+}
+.navbar-nav {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color:  rgb(67, 67, 67);
+}  
+.col-md-auto{
+padding: 0;
+}
+.navbar-collapse {
+    background-color: rgb(67, 67, 67);
+}
+
+#navbarNavDropdown{
+    background-color: rgb(67, 67, 67);
+    color: gold;
+}
+.justify-content-end {
+    background-color: rgb(67, 67, 67);
+}
+
+.navbar {
+    text-decoration: none;
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgb(67, 67, 67);
+}
+
+
+
+/*-------------------------Button*/
+.btn--gold {
+    border: 2px;
+    border-color: rgb(69,69,69);
+    background-color: gold;
+    color:rgb(69,69,69); 
+}
+.btn-sign{
+    border-radius: 30px;
+    color:rgb(69,69,69); 
+    
+}
+.jumbotron {
+    background: transparent;
+    height: 75vh;
+    color: gold;
+    text-transform: uppercase;
+}
+.moto {
+background-color: rgb(116, 114, 114);
+margin-bottom: 30px;
+}
+.lead {
+    background-color: rgb(116, 114, 114);
+    margin-top: 50px;
+}
+.home-container {
+    height: 100vh;
+    background:  url("../images/gym-5977600_1280.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+/*---Stackoverflow---*/
+
+.quodrant{
+    width: 100%;
+    height: 100vh;
+    margin-top: 150px;
+    padding: 0;
+    text-align: center;
+   
+} 
+
+.quodrant-container{
+width: 100%;
+
+}
+.text {
+    margin-top: 25px;
+   
+}
+.qtop,
+.qbottom{
+    width: 90%;
+    height: 40vh;
+}
+
+
+.quodrant1,
+.quodrant2,
+.quodrant3,
+.quodrant4{
+    display: inline;
+   
+    width: 40%;
+    height: 80%;
+    border-color: gray;
+    border-radius: 30px;
+    margin: 2%;
+    background-color: gold;
+}
+.quodrant2,
+.quodrant4{
+    float: left;
+    margin-right: 20px;
+}
+
+.quodrant1,
+.quodrant3{
+    float: right;
+    margin-left: 20px;
+}
+
+
+/*--Testimonials float: right;--*/
+
+
+.feature {
+    display: inline;
+    float: left;
+    width: 80%;
+    height: 80%;
+    text-align: center;
+    border-radius: 30px;
+    margin: 2%;
+    padding-bottom: 25px;
+    background-color: gray;
+    color: gold;
+    margin-bottom: 35px;
+
+   
+}
+.container-wrapper{
+    width: 100%;
+    height: 50%;
+    background-color: gold;
+}
+/*--Footer--*/
+
+.mb-3 {
+    background-color: gray;
+}
+
+
+
+
+/*-------------------------Button*/
+.btn--gold {
+    background-color: gold;
+    color: gray;
+   
+}
+.jumbotron {
+    background: transparent;
+    height: 75vh;
+    color: gold;
+    text-transform: uppercase;
+}
+.moto {
+background-color: grey;
+margin-bottom: 150px;
+margin-bottom: 150px;
+}
+.col-md-auto{
+    background-color: grey;
+    
+}
+/*---Stackoverflow---*/
+
+
+.feature-container{
+    height: 100vh;
+    background:  url("../images/pexels-goumbik-669576.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quodrant{
+    width: 100%;
+    height: 100vh;
+    margin-top: 150px;
+    padding: 0;
+    text-align: center;
+   
+}
+.text {
+    text-align: center;
+    margin-top: 10px;
+   
+}
+.w-100 {
+    height: 10%;
+}
+.qtop,
+.qbottom{
+    width: 90%;
+    height: 40vh;
+}
+
+
+.quodrant1,
+.quodrant2,
+.quodrant3,
+.quodrant4 {
+    position: relative;
+    display: inline;
+    float: right;
+    width: 40%;
+    height: 80%;
+    border-color: gray;
+    border-radius: 30px;
+    margin: 2%;
+    background-color: gold;
+}
+.row {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*--Testimonials--*/
+
+.testimonials-box {
+    position: relative;
+    display: inline;
+    float: right;
+    width: 80%;
+    height: 255px;
+    text-align: center;
+    border-radius: 30px;
+    margin: 2%;
+    background-color: gray;
+    color: gold;
+   
+}
+.feature-box {
+ 
+    position: relative;
+    display: inline;
+    float: right;
+    width: 40%;
+    height: 240px;
+    text-align: center;
+    border-color: gray;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin: 3%;
+    background-color: gold;
+}
+   
+       
+
+@media screen and (min-width: 480px){
+    .feature-box,
+    .testimonials-box {
+        font-weight: 300;
+    }
+}
+
+    @media screen and (min-width: 480px){
+    .text{
+        margin-top: 15%;
+    }
+}
+   /*-- .testimonials-container{
+        width: 80%;
+        height: 1200px;
+        background-color: gold;--*/
+    
+.mr-3 {
+    object-fit: cover;
+    margin-top: 15px;
+}
+.name-testimonials{
+    margin-top: 12px;
+}
+.text-testimonials {
+    height: 100px;
+}
+
+.testimonials-container{
+    width: 100%;
+    
+    background-color: gold;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+/*--Footer--*/
+
+  .footer-container {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(116, 114, 114);
+    color: gold;
+    text-align: center;
+  }
+
+ .list-inline-item {
+    margin: 7px;
+ }
+ .footer-container i {
+    color: gold;
+    font-size: 160%;
+    padding: 5%;
+    margin: 0;
+ }
+
+
+
+
+
+
+
+
