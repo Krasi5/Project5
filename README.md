@@ -5,6 +5,8 @@ README.md
 
 GymPlus is a fitness-oriented website, created as a Milestone Project 1 for a Web Development course. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential users.
 
+<h2 text-align="center"><img src="assets/documents/Site_image.jpg"></h2>
+
 
 ## User Experience (UX)
 
@@ -40,9 +42,16 @@ GymPlus is a fitness-oriented website, created as a Milestone Project 1 for a We
 
 - ### Wireframes
 
-   -  Home Page Wireframe - [View](https://github.com/)
+   -  Home Page Wireframe - <img src="assets/documents/Desktop_frame.jpg">
+   <img src="assets/documents/Desktop_frame2.jpg">
 
-   -  Mobile Wireframe - [View](https://github.com/)
+
+   <img src="assets/documents/Desktop_frame3.jpg">
+
+
+
+
+   -  Mobile Wireframe - <img src="assets/documents/Mobile_frame1.jpg"><img src="assets/documents/Mobile_frame2.jpg">
 
 ## Features
 
@@ -107,8 +116,8 @@ The site was created to be responsive on various devices: mobile phone, tablet, 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate all the pages in the project to ensure no syntax errors exist.
 
-- [W3C Markup Validator](https://validator.w3.org/)
--  [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [W3C Markup Validator]<img src="assets/documents/htmlval.jpg">
+-  [W3C CSS Validator]<img src="assets/documents/CSSVal.jpg">
 
 
 ### Testing User Stories from User Experience (UX) Section
